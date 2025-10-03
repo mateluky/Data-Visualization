@@ -29,6 +29,7 @@ It presents an interactive **Shiny web app** for analyzing fight data from the U
 │ └── us_states.geojson # GeoJSON with US state polygons for map rendering
 ├── README.md # Project description and instructions
 └── requirements.txt # List of R package dependencies to run the app
+```
 ---
 
 ## 📖 Project Overview
