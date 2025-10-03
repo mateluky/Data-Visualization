@@ -8,7 +8,6 @@
 - Inés Simón del Collado (Idiom 4)  
 
 **Instructor:** Pablo Toharia  
-
 ---
 
 This project was developed as part of the *"Data Visualization"* course at the **Universidad Politécnica de Madrid (Master in Digital Innovation - EIT Digital)**.  
@@ -17,7 +16,6 @@ It presents an interactive **Shiny web app** for analyzing fight data from the U
 🔗 **Live App:** https://davissiemens.shinyapps.io/final/  
 📊 **Dataset Source:** https://www.kaggle.com/datasets/mdabbert/ultimate-ufc-dataset  
 
----
 
 ## 📁 Project Structure
 ```
@@ -30,7 +28,6 @@ It presents an interactive **Shiny web app** for analyzing fight data from the U
 ├── README.md # Project description and instructions
 └── requirements.txt # List of R package dependencies to run the app
 ```
----
 
 ## 📖 Project Overview
 The goal was to build an interactive tool that assists analysts in exploring UFC fight data through multiple visual idioms.  
@@ -39,15 +36,13 @@ Each idiom was designed to answer specific analytical questions using visualizat
 This was a **group project** consisting of four members.  
 My contribution focused on **Idiom 3: UFC Fight Performance Heatmap (pages 14–19 in report.pdf)**.
 
----
 
 ## ✨ Features
 - **Idiom 1** – Finish Trend Analysis Over Time *(stacked area chart)*  
 - **Idiom 2** – Outcome Distributions by Weight Class *(interactive radar chart)*  
-- **My Part: Idiom 3** – UFC Fight Performance Heatmap *(interactive heatmap)*  
+- **My Part: Idiom 3 – UFC Fight Performance Heatmap *(interactive heatmap)***
 - **Idiom 4** – Geographic Distribution of UFC Fights *(choropleth maps)*  
 
----
 
 ## 🛠️ My Contribution – Idiom 3: UFC Fight Performance Heatmap
 I was responsible for designing and implementing **Idiom 3**, an **interactive heatmap** for exploring fight performance trends by **winner’s age, nationality, and average rounds fought**.  
@@ -58,7 +53,6 @@ This module allows analysts to:
 - Compare fight patterns across weight classes, genders, and fight locations.  
 - Track performance trends over time with a year range slider.  
 
----
 
 ## 🔧 Features I Implemented
 - **Heatmap Visualization** (age × country with color encoding for average rounds)  
@@ -76,7 +70,6 @@ This idiom supports both **discovery** (e.g., identifying correlations between a
 
 For a full explanation of the design, data abstraction, task abstraction, and implementation, refer to the **Idiom 3 section** in `report.pdf` (pages 14–19).  
 
----
 
 ## 📦 Requirements
 Install the following R packages before running the app locally:
@@ -92,8 +85,10 @@ install.packages("ggplot2")
 install.packages("plotly")
 install.packages("fmsb")
 install.packages("shinyWidgets")
+```
 
-▶️ Run Locally
+## ▶️ Run Locally
 
 In RStudio or any R environment, run:
+```r
 shiny::runApp("app.R")
