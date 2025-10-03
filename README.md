@@ -14,13 +14,21 @@
 This project was developed as part of the *"Data Visualization"* course at the **Universidad Politécnica de Madrid (Master in Digital Innovation - EIT Digital)**.  
 It presents an interactive **Shiny web app** for analyzing fight data from the Ultimate UFC Dataset.
 
-🔗 [Live App]()  
-📊 [Dataset Source]()  
+🔗 **Live App:** https://davissiemens.shinyapps.io/final/  
+📊 **Dataset Source:** https://www.kaggle.com/datasets/mdabbert/ultimate-ufc-dataset  
 
 ---
 
 ## 📁 Project Structure
-
+.
+├── app.R # Shiny application source code
+├── report.pdf # Full group report structured by abstraction levels
+├── data/ # Folder containing CSV files
+│ ├── ufc-master.csv # Main UFC fight dataset from Kaggle
+│ └── countries.geojson # GeoJSON with country polygons for map rendering
+│ └── us_states.geojson # GeoJSON with US state polygons for map rendering
+└── README.md # Project description and instructions
+└── requirements.txt # List of R package dependencies to run the app
 ---
 
 ## 📖 Project Overview
