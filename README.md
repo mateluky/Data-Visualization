@@ -4,7 +4,7 @@
 **Authors:**
 - Davis Siemens (Idiom 1)  
 - Ádám Földvári (Idiom 2)  
-- Máté Lukács (Idiom 3)  
+- **Máté Lukács (Idiom 3)  **
 - Inés Simón del Collado (Idiom 4)  
 
 **Instructor:** Pablo Toharia  
