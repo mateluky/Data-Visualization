@@ -4,7 +4,7 @@
 **Authors:**
 - Davis Siemens (Idiom 1)  
 - Ádám Földvári (Idiom 2)  
-- **Máté Lukács (Idiom 3)  **
+- **Máté Lukács (Idiom 3)**
 - Inés Simón del Collado (Idiom 4)  
 
 **Instructor:** Pablo Toharia  
@@ -20,7 +20,7 @@ It presents an interactive **Shiny web app** for analyzing fight data from the U
 ---
 
 ## 📁 Project Structure
-.
+```
 ├── app.R # Shiny application source code
 ├── report.pdf # Full group report structured by abstraction levels
 ├── data/ # Folder containing CSV files
